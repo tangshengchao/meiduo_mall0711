@@ -1,3 +1,4 @@
+# 测试开发阶段配置
 """
 Django settings for meiduo_mall project.
 
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',  # DRF
 ]
 
 MIDDLEWARE = [
